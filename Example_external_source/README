@@ -1,3 +1,13 @@
+2022-12-20 Tzu-Hsiang Lin in NTHU
+This program is a Geant4 example for reading external source file like energy and particl name.
+For example, the external source file: "P_data.txt" and "E_data.txt", locate in the "build" folder and they are imported at "B1RunAcation.cc".
+If you want to extend the external source infromation(like momentum, position), you can add the new variable array in "RunAction.cc" and "RunAction.hh".
+
+Make sure your simulated number is not beyond the input number, otherwise, the energy will be set 0 MeV.
+
+
+
+
 $Id: README 78001 2013-12-02 08:24:53Z gcosmo $
 -------------------------------------------------------------------
 

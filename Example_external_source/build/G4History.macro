@@ -4,6 +4,13 @@
 /score/mesh/nBin 1 1 200
 /score/mesh/translate/xyz 0. 0. 1 cm
 /run/geometryModified 
-
-/run/beamOn 10
+/run/geometryModified 
+/run/geometryModified 
+/tracking/verbose 1
+/tracking/verbose 5
+/tracking/verbose 1
+/run/geometryModified 
+/tracking/verbose 5
+/tracking/verbose 1
+/run/beamOn 5
 /run/geometryModified

@@ -103,12 +103,11 @@ void B1PrimaryGeneratorAction::GeneratePrimaries(G4Event* anEvent)
 		fgetc(stdin);
 		Out_of_range = true;
   }
+    G4ParticleDefinition* fpaticles;
 #if 0 // one kind of particle
-   	G4ParticleDefinition* fpaticles
-			= G4ParticleTable::GetParticleTable()->FindParticle("proton");
+   	 fpaticles = G4ParticleTable::GetParticleTable()->FindParticle("proton");
 #else // several kind of particles
-   	G4ParticleDefinition* fpaticles
-			= G4ParticleTable::GetParticleTable()->FindParticle("proton");
+
 
 	if (int(Particle_array[file_counter]) == 1){
 		fpaticles = G4ParticleTable::GetParticleTable()->FindParticle("proton");

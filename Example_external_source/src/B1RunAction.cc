@@ -98,7 +98,7 @@ if (file_read_counter==0){
         float E_temp;
         while (ifs1 >> E_temp) {
             E_array.push_back(E_temp);
-            G4cout << E_temp<<" . "<<G4endl;
+            //G4cout << E_temp<<" . "<<G4endl;
         }
       
         ifs1.close();
