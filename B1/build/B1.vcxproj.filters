@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\geant4\geant4_10_06_p03-install\share\Geant4-10.6.3\examples\basic\B1\build\CMakeFiles\297ca0463b701c9a604648e5548c3b1d\B1.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\geant4\geant4_10_06_p03-install\share\Geant4-10.6.3\examples\basic\B1\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\geant4\geant4_10_06_p03-install\share\Geant4-10.6.3\examples\basic\B1\build\CMakeFiles\B1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3CC319B7-8C55-3620-AAA1-16D0B760C9C1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
