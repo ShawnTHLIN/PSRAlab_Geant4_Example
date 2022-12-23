@@ -1,3 +1,9 @@
+#Caution!
+Because this code was tested under my environment which include MPI and several extended databases, it's impossible to directly run in your environment.
+I suggest you just move the code part to your exampleB1 project.
+It will be a good practice for you !
+
+
 2022-12-20 Tzu-Hsiang Lin in NTHU
 This program is a Geant4 example for reading external source file like energy and particl name.
 For example, the external source file: "P_data.txt" and "E_data.txt", locate in the "build" folder and they are imported at "B1RunAcation.cc".
